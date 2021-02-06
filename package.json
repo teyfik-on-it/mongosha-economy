@@ -4,7 +4,9 @@
   "description": "",
   "main": "sude.js",
   "scripts": {
-    "start": "node sude.js"
+    "start": "node sude.js",
+    "lint": "eslint ./**/*.js",
+    "format": "prettier --write ."
   },
   "author": "Sude Sipahi",
   "license": "MIT",
