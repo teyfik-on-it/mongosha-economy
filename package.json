@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node sude.js",
     "lint": "eslint ./**/*.js",
+    "lint:fix": "npm run lint -- --fix",
     "format": "prettier --write ."
   },
   "author": "Sude Sipahi",
